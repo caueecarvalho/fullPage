@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("../Assets/watercolor.jpg");
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(255, 255, 255, 0.685);
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.title h1 {
+  font: 40px "Dawning of a New Day", cursive;
+  color: #000;
+}
+
+.title h2 {
+  font: 30px "Open Sans Condensed", sans-serif;
+  color: #000;
+}
+
+.contact .span1 {
+  font: 25px "Open Sans Condensed", sans-serif;
+  color: #000;
+}
+
+.contact .span2 {
+  font: 25px "Open Sans Condensed", sans-serif;
+  color: #000;
+}
+
+.menulinks {
+  text-decoration: none;
+}
+
+.languages {
+  text-decoration: none;
+  font: 30px "Open Sans Condensed", sans-serif;
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
