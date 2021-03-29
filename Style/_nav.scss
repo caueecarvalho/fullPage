@@ -1,17 +1,20 @@
 nav {
   display: flex;
-  padding: 0px;
-  margin: 0px;
-  background-color: $color8;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 30px;
+  background-color: $color4;
 }
 
 .title {
   display: flex;
+  align-items: center;
   h1 {
-    @include text2(40px, $color1);
+    @include text2(45px, $color2);
+    margin-right: 20px;
   }
   h2 {
-    @include text1(30px, $color1);
+    @include text1(40px, $color1);
   }
 }
 
@@ -24,11 +27,17 @@ nav {
   }
 }
 
-.menulinks {
-  text-decoration: none;
+.media {
+  display: flex;
+  align-items: center;
+  .youtube {
+    display: block;
+  }
+  .instagram {
+    display: block;
+  }
 }
 
 .languages {
-  text-decoration: none;
   @include text1(30px, $color1);
 }
