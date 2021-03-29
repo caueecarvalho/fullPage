@@ -1,0 +1,32 @@
+.description {
+  width: 900px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .marcelo {
+    width: 900px;
+    background-color: $color5;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+    }
+    .p1 {
+    }
+  }
+  .therapy {
+    width: 900px;
+    background-color: $color5;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h4 {
+    }
+    .p2 {
+    }
+  }
+}

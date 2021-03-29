@@ -1,0 +1,16 @@
+.types {
+  width: 900px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+
+  .type1,
+  .type2,
+  .type3 {
+    width: 280px;
+    background-color: $color6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

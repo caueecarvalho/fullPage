@@ -6,7 +6,7 @@ $color4: #4db9c78f;
 $color5: #f5966b;
 $color6: #ffc75e;
 $color7: #53115c;
-$color8: rgba(255, 255, 255, 0.486);
+$color8: #535353;
 
 //Functions
 @mixin text1($size, $color) {
@@ -15,6 +15,6 @@ $color8: rgba(255, 255, 255, 0.486);
 }
 
 @mixin text2($size, $color) {
-  font: $size "Dawning of a New Day", cursive;
+  font: $size "Homemade Apple", cursive;
   color: $color;
 }

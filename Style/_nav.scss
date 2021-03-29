@@ -4,26 +4,29 @@ nav {
   justify-content: space-between;
   padding: 4px 30px;
   background-color: $color4;
+  margin-bottom: 80px;
 }
 
 .title {
   display: flex;
   align-items: center;
   h1 {
-    @include text2(45px, $color2);
+    @include text2(30px, $color2);
+    margin-top: 6px;
     margin-right: 20px;
   }
   h2 {
-    @include text1(40px, $color1);
+    @include text1(35px, $color8);
+    text-transform: uppercase;
   }
 }
 
 .contact {
-  .span1 {
-    @include text1(25px, $color1);
-  }
-  .span2 {
-    @include text1(25px, $color1);
+  @include text1(20px, $color1);
+  text-decoration: none;
+
+  &:hover {
+    color: $color2;
   }
 }
 
@@ -32,12 +35,19 @@ nav {
   align-items: center;
   .youtube {
     display: block;
+    margin-right: 10px;
   }
   .instagram {
     display: block;
   }
 }
 
-.languages {
+.languages .eng,
+.pt {
   @include text1(30px, $color1);
+  text-decoration: none;
+  margin-right: 10px;
+  &:hover {
+    color: $color2;
+  }
 }

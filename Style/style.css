@@ -19,6 +19,7 @@ nav {
           justify-content: space-between;
   padding: 4px 30px;
   background-color: #4db9c78f;
+  margin-bottom: 80px;
 }
 
 .title {
@@ -31,24 +32,26 @@ nav {
 }
 
 .title h1 {
-  font: 45px "Dawning of a New Day", cursive;
+  font: 30px "Homemade Apple", cursive;
   color: #fff;
+  margin-top: 6px;
   margin-right: 20px;
 }
 
 .title h2 {
-  font: 40px "Open Sans Condensed", sans-serif;
-  color: #313131;
+  font: 35px "Open Sans Condensed", sans-serif;
+  color: #535353;
+  text-transform: uppercase;
 }
 
-.contact .span1 {
-  font: 25px "Open Sans Condensed", sans-serif;
+.contact {
+  font: 20px "Open Sans Condensed", sans-serif;
   color: #313131;
+  text-decoration: none;
 }
 
-.contact .span2 {
-  font: 25px "Open Sans Condensed", sans-serif;
-  color: #313131;
+.contact:hover {
+  color: #fff;
 }
 
 .media {
@@ -62,14 +65,98 @@ nav {
 
 .media .youtube {
   display: block;
+  margin-right: 10px;
 }
 
 .media .instagram {
   display: block;
 }
 
-.languages {
+.languages .eng,
+.pt {
   font: 30px "Open Sans Condensed", sans-serif;
   color: #313131;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.languages .eng:hover,
+.pt:hover {
+  color: #fff;
+}
+
+.description {
+  width: 900px;
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.description .marcelo {
+  width: 900px;
+  background-color: #f5966b;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.description .therapy {
+  width: 900px;
+  background-color: #f5966b;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.types {
+  width: 900px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.types .type1,
+.types .type2,
+.types .type3 {
+  width: 280px;
+  background-color: #ffc75e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
