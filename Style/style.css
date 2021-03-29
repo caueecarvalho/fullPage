@@ -20,6 +20,8 @@ nav {
   padding: 4px 30px;
   background-color: #4db9c78f;
   margin-bottom: 80px;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+          box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .title {
@@ -46,12 +48,12 @@ nav {
 
 .contact {
   font: 20px "Open Sans Condensed", sans-serif;
-  color: #313131;
+  color: #fff;
   text-decoration: none;
 }
 
 .contact:hover {
-  color: #fff;
+  color: #313131;
 }
 
 .media {
@@ -75,51 +77,34 @@ nav {
 .languages .eng,
 .pt {
   font: 30px "Open Sans Condensed", sans-serif;
-  color: #313131;
+  color: #fff;
   text-decoration: none;
   margin-right: 10px;
 }
 
 .languages .eng:hover,
 .pt:hover {
-  color: #fff;
+  color: #313131;
 }
 
 .description {
-  width: 900px;
+  width: 1000px;
   margin: 40px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.description .marcelo {
-  width: 900px;
-  background-color: #f5966b;
-  margin-bottom: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
+.description .marcelo,
 .description .therapy {
-  width: 900px;
-  background-color: #f5966b;
-  margin-bottom: 50px;
+  width: 425px;
+  background-color: rgba(255, 255, 255, 0.397);
+  border-radius: 5px;
+  padding: 25px;
+  margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,10 +115,28 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+          box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.description h3 {
+  font: 30px "Open Sans Condensed", sans-serif;
+  color: #36838daf;
+}
+
+.description h4 {
+  font: 25px "Open Sans Condensed", sans-serif;
+  color: #36838daf;
+}
+
+.description .p2,
+.description .p1 {
+  font: 25px "Open Sans Condensed", sans-serif;
+  color: #36838daf;
 }
 
 .types {
-  width: 900px;
+  width: 1000px;
   margin: 0px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,7 +150,7 @@ nav {
 .types .type2,
 .types .type3 {
   width: 280px;
-  background-color: #ffc75e;
+  background-color: #ffc75e46;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -158,5 +161,26 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: rgba(255, 255, 255, 0.397);
+}
+
+.types .type1:hover,
+.types .type2:hover,
+.types .type3:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+          box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  border-color: #7e6179;
+}
+
+.types p {
+  font: 30px "Homemade Apple", cursive;
+  color: #313131;
+}
+
+.types span {
+  font: 20px "Open Sans Condensed", sans-serif;
+  color: #313131;
 }
 /*# sourceMappingURL=style.css.map */
