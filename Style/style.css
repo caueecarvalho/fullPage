@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: rgba(253, 229, 213, 0.164);
+  background-image: url("/Assets/newone.jpeg");
+  background-attachment: fixed;
 }
 
 nav {
@@ -17,14 +18,13 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 4px 30px;
-  background-image: url("/Assets/watercolor.jpg");
+  padding: 0px 30px;
+  background-color: #fff;
   margin-bottom: 80px;
-  border-radius: 0px 0px 0px 0px;
   width: auto;
-  height: 100px;
-  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-          box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+  height: 80px;
+  -webkit-box-shadow: -1px 2px 4px -1px rgba(0, 0, 0, 0.75);
+          box-shadow: -1px 2px 4px -1px rgba(0, 0, 0, 0.75);
 }
 
 .title {
@@ -36,37 +36,18 @@ nav {
           align-items: center;
 }
 
-.title h1 {
-  font: 30px "Homemade Apple", cursive;
-  color: #fff;
-  margin-top: 6px;
-  margin-right: 20px;
+.title .logo {
+  width: 50px;
+  margin-right: 10px;
 }
 
 .title h2 {
-  font: 35px "Open Sans Condensed", sans-serif;
+  font: 25px "Open Sans Condensed", sans-serif;
   color: #535353;
   text-transform: uppercase;
 }
 
-.contact {
-  font: 20px "Open Sans Condensed", sans-serif;
-  color: #fff;
-  padding: 5px 10px;
-  text-decoration: none;
-  background-color: #8fe6f1c7;
-  border-radius: 7px;
-  border-style: dashed;
-  border-color: #fff;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-          box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-}
-
-.contact:hover {
-  color: #313131;
-}
-
-.media {
+.links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,30 +56,43 @@ nav {
           align-items: center;
 }
 
-.media .youtube {
-  display: block;
-  margin-right: 10px;
-}
-
-.media .instagram {
-  display: block;
-}
-
-.languages .eng,
-.pt {
-  font: 30px "Open Sans Condensed", sans-serif;
-  color: #fff;
+.contact {
+  font: 18px "Open Sans Condensed", sans-serif;
+  color: #535353;
+  padding: 5px 15px 8px;
   text-decoration: none;
-  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #535353;
+  margin-right: 40px;
 }
 
-.languages .eng:hover,
+.contact:hover {
+  color: #fff;
+  background-color: #535353;
+}
+
+.instagram {
+  margin-right: 30px;
+}
+
+.eng,
+.pt {
+  font: 20px "Open Sans Condensed", sans-serif;
+  color: #535353;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+.eng:hover,
 .pt:hover {
-  color: #313131;
+  background-color: #535353;
+  color: #fff;
 }
 
 .description {
-  width: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,10 +109,9 @@ nav {
 
 .description .marcelo,
 .description .therapy {
-  width: 1100px;
-  border-radius: 10px 10px 40px 40px;
-  border-style: dashed;
-  border-color: #575757;
+  width: 1000px;
+  background-color: #6868685d;
+  border-radius: 10px;
   margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,35 +129,21 @@ nav {
   -moz-box-shadow: 2px 10px 14px -17px rgba(0, 0, 0, 0.67);
 }
 
-.description .marcelo {
-  background-image: url("/Assets/background3.jpg");
-}
-
-.description .therapy {
-  background-image: url("/Assets/background4.jpg");
-}
-
 .description h3,
 .description h4 {
-  font: 25px "Homemade Apple", cursive;
+  font: 30px "Homemade Apple", cursive;
   color: #575757;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 
 .description .text1,
 .description .text2 {
-  width: 800px;
+  width: 900px;
+  margin-bottom: 20px;
   font: 20px "Open Sans Condensed", sans-serif;
   color: #fff;
-  background-color: #6868685d;
-  border-radius: 5px 5px 40px 40px;
-  border-color: #8fe6f1c7;
-  padding: 20px;
-  margin-bottom: 20px;
   text-align: justify;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
-          box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .description p {
@@ -245,7 +224,7 @@ nav {
   background-color: #fd97bc56;
 }
 
-.footer {
+footer {
   background-color: #313131;
   width: auto;
   margin-top: 80px;
@@ -267,5 +246,9 @@ nav {
 .additional {
   font: 15px "Open Sans Condensed", sans-serif;
   color: #fff;
+}
+
+.logoco {
+  width: 50px;
 }
 /*# sourceMappingURL=style.css.map */

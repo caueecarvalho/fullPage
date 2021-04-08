@@ -1,5 +1,4 @@
 .description {
-  width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,10 +7,9 @@
 
   .marcelo,
   .therapy {
-    width: 1100px;
-    border-radius: 10px 10px 40px 40px;
-    border-style: dashed;
-    border-color: $color13;
+    width: 1000px;
+    background-color: $color11;
+    border-radius: 10px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -22,32 +20,19 @@
     -moz-box-shadow: 2px 10px 14px -17px rgba(0, 0, 0, 0.67);
   }
 
-  .marcelo {
-    background-image: url("/Assets/background3.jpg");
-  }
-
-  .therapy {
-    background-image: url("/Assets/background4.jpg");
-  }
-
   h3,
   h4 {
-    @include text2(25px, $color13);
+    @include text2(30px, $color13);
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
   }
 
   .text1,
   .text2 {
-    width: 800px;
-    @include text1(20px, $color2);
-    background-color: $color11;
-    border-radius: 5px 5px 40px 40px;
-    border-color: $color4;
-    padding: 20px;
+    width: 900px;
     margin-bottom: 20px;
+    @include text1(20px, $color2);
     text-align: justify;
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
   }
 
   p {

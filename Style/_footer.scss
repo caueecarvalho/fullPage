@@ -1,4 +1,4 @@
-.footer {
+footer {
   background-color: $color1;
   width: auto;
   margin-top: 80px;
@@ -11,4 +11,8 @@
 }
 .additional {
   @include text1(15px, $color2);
+}
+
+.logoco {
+  width: 50px;
 }
