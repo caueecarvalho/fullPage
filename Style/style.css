@@ -20,11 +20,9 @@ nav {
           justify-content: space-between;
   padding: 0px 30px;
   background-color: #fff;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   width: auto;
   height: 80px;
-  -webkit-box-shadow: -1px 10px 5px -11px rgba(0, 0, 0, 0.75);
-          box-shadow: -1px 10px 5px -11px rgba(0, 0, 0, 0.75);
 }
 
 .title {
@@ -82,7 +80,7 @@ nav {
   font: 20px "Open Sans Condensed", sans-serif;
   color: #535353;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 5px 8px;
 }
 
@@ -110,9 +108,8 @@ nav {
 .description .marcelo,
 .description .therapy {
   width: 1000px;
-  background-color: #68686867;
   border-radius: 3px;
-  margin-bottom: 90px;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,9 +121,11 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   padding: 25px 30px 30px 30px;
-  box-shadow: 2px 10px 14px -17px rgba(0, 0, 0, 0.67);
-  -webkit-box-shadow: 2px 10px 14px -17px rgba(0, 0, 0, 0.67);
-  -moz-box-shadow: 2px 10px 14px -17px rgba(0, 0, 0, 0.67);
+}
+
+.description .profile {
+  width: 100px;
+  margin-bottom: 30px;
 }
 
 .description h3,
@@ -137,9 +136,29 @@ nav {
   margin-bottom: 20px;
 }
 
-.description .text1,
+.description .distribution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  background-color: #68686867;
+  width: 1100px;
+}
+
+.description .text1 {
+  width: 200px;
+  font: 20px "Open Sans Condensed", sans-serif;
+  color: #fff;
+  text-align: justify;
+}
+
 .description .text2 {
+  background-color: #68686867;
   width: 900px;
+  padding: 30px 50px;
+  border-radius: 5px;
   margin-bottom: 20px;
   font: 20px "Open Sans Condensed", sans-serif;
   color: #fff;

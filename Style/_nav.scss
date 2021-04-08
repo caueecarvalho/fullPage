@@ -4,10 +4,9 @@ nav {
   justify-content: space-between;
   padding: 0px 30px;
   background-color: $color2;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   width: auto;
   height: 80px;
-  box-shadow: -1px 10px 5px -11px rgba(0, 0, 0, 0.75);
 }
 
 .title {
@@ -52,7 +51,7 @@ nav {
 .pt {
   @include text1(20px, $color8);
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 5px 8px;
 
   &:hover {
