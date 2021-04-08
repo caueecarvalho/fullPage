@@ -20,11 +20,11 @@ nav {
           justify-content: space-between;
   padding: 0px 30px;
   background-color: #fff;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   width: auto;
   height: 80px;
-  -webkit-box-shadow: -1px 2px 4px -1px rgba(0, 0, 0, 0.75);
-          box-shadow: -1px 2px 4px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 10px 5px -11px rgba(0, 0, 0, 0.75);
+          box-shadow: -1px 10px 5px -11px rgba(0, 0, 0, 0.75);
 }
 
 .title {
@@ -103,16 +103,16 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px auto 30px auto;
+  margin: 0px auto;
   border-radius: 4px;
 }
 
 .description .marcelo,
 .description .therapy {
   width: 1000px;
-  background-color: #6868685d;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  background-color: #68686867;
+  border-radius: 3px;
+  margin-bottom: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,7 +151,7 @@ nav {
 }
 
 .types {
-  width: 1100px;
+  width: 1020px;
   height: 300px;
   margin: 0px auto;
   display: -webkit-box;
@@ -164,7 +164,7 @@ nav {
 
 .types .type1,
 .types .type2 {
-  width: 500px;
+  width: 450px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,21 +175,13 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 5px 5px 40px 40px;
+  border-radius: 5px;
   border-style: dashed;
   border-color: #575757;
   padding: 15px;
   box-shadow: 2px 10px 14px -8px rgba(0, 0, 0, 0.67);
   -webkit-box-shadow: 2px 10px 14px -8px rgba(0, 0, 0, 0.67);
   -moz-box-shadow: 2px 10px 14px -8px rgba(0, 0, 0, 0.67);
-}
-
-.types .type1 {
-  background-image: url("/Assets/background1.jpg");
-}
-
-.types .type2 {
-  background-image: url("/Assets/background2.jpg");
 }
 
 .types p {
